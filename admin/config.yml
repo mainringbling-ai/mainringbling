@@ -6,10 +6,9 @@ media_folder: "images"
 public_folder: "/images"
 
 collections:
-  - name: "site_content"
-    label: "Site Content"
+  - name: "products"
+    label: "Products"
     files:
-
       - label: "Products"
         name: "products"
         file: "content.json"
@@ -24,6 +23,9 @@ collections:
               - { label: "Badge (e.g. New, Fan Fav - leave blank for none)", name: "badge", widget: "string", required: false }
               - { label: "Product Photo", name: "image", widget: "image", required: false }
 
+  - name: "shows"
+    label: "Show Schedule"
+    files:
       - label: "Show Schedule"
         name: "shows"
         file: "content.json"
@@ -39,6 +41,9 @@ collections:
               - { label: "Tag (e.g. Attending, Planned, Annual)", name: "tag", widget: "string" }
               - { label: "Featured Show? (gold badge)", name: "featured", widget: "boolean", default: false }
 
+  - name: "text_content"
+    label: "Hero & About Text"
+    files:
       - label: "Hero & About Text"
         name: "text_content"
         file: "content.json"
