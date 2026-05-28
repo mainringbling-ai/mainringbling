@@ -34,41 +34,25 @@
     {
       "month": "Jun",
       "day": "20",
-      "title": "Utah Valley Arabian Value Show",
-      "location": "Utah Valley · All Disciplines · Arabian & Half-Arabian",
-      "tag": "Featured Show",
+      "title": "UABHA Tack Sale Fundraiser",
+      "location": "Keystone Equestrian - Bluffdale, UT",
+      "tag": "Attending",
       "featured": true
     },
     {
-      "month": "Jul",
-      "day": "12",
-      "title": "Region 7 Summer Spectacular",
-      "location": "Salt Lake Valley, UT · Arabian Performance & Halter",
+      "month": "Sep",
+      "day": "24-26",
+      "title": "UAHC Autumn Classic Championship Show",
+      "location": "Ogden, UT · Arabian & Open Breed Performance Classes",
       "tag": "Attending",
-      "featured": false
-    },
-    {
-      "month": "Aug",
-      "day": "09",
-      "title": "Utah Arabian Horse Fall Classic",
-      "location": "Northern Utah · Open to All Arabian Breeds",
-      "tag": "Attending",
-      "featured": false
-    },
-    {
-      "month": "Oct",
-      "day": "TBD",
-      "title": "Region 7 Fall Championship",
-      "location": "Location TBD · Arabian & Half-Arabian · All Disciplines",
-      "tag": "Planned",
       "featured": false
     },
     {
       "month": "Feb",
-      "day": "27",
+      "day": "11-21",
       "title": "Scottsdale Arabian Horse Show",
       "location": "Scottsdale, AZ · The World's Largest Arabian Show",
-      "tag": "Annual",
+      "tag": "Planned",
       "featured": false
     }
   ]
