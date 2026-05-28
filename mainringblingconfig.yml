@@ -1,0 +1,57 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "site_content"
+    label: "Site Content"
+    files:
+
+      - label: "Products"
+        name: "products"
+        file: "content.json"
+        fields:
+          - label: "Products"
+            name: "products"
+            widget: "list"
+            fields:
+              - { label: "Product Name", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
+              - { label: "Price (e.g. $485)", name: "price", widget: "string" }
+              - { label: "Badge (e.g. New, Fan Fav — leave blank for none)", name: "badge", widget: "string", required: false }
+              - { label: "Product Photo", name: "image", widget: "image", required: false }
+
+      - label: "Show Schedule"
+        name: "shows"
+        file: "content.json"
+        fields:
+          - label: "Shows"
+            name: "shows"
+            widget: "list"
+            fields:
+              - { label: "Month (3 letters, e.g. Jun)", name: "month", widget: "string" }
+              - { label: "Day (number or TBD)", name: "day", widget: "string" }
+              - { label: "Show Name", name: "title", widget: "string" }
+              - { label: "Location & Details", name: "location", widget: "string" }
+              - { label: "Tag (e.g. Attending, Planned, Annual)", name: "tag", widget: "string" }
+              - { label: "Featured Show? (gold badge)", name: "featured", widget: "boolean", default: false }
+
+      - label: "Hero & About Text"
+        name: "text_content"
+        file: "content.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Tagline (under the logo)", name: "tagline", widget: "text" }
+          - label: "About Section"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Paragraph 1", name: "paragraph1", widget: "text" }
+              - { label: "Paragraph 2", name: "paragraph2", widget: "text" }
+              - { label: "Paragraph 3", name: "paragraph3", widget: "text" }

@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "tagline": "Curated equestrian show attire — crafted for the competitor who refuses to choose between elegance and edge."
+  },
+  "about": {
+    "paragraph1": "Main Ring Bling was born out of a simple truth every Arabian horse person knows: the main ring is where everything comes together. The years of training, the bond with your horse, the early mornings and late nights — it all culminates in those few minutes under the lights.",
+    "paragraph2": "We believe your attire should match that moment. That's why every piece in our collection — whether purchased, rented, or consigned — is chosen with the eye of a competitor and the heart of a horse person.",
+    "paragraph3": "Based in Utah and deeply rooted in the Arabian horse community, Main Ring Bling serves riders across Region 7 and beyond — from valley shows to Scottsdale. We're not just a shop; we're your ringside partner."
+  },
+  "products": [
+    {
+      "name": "The Jewel Jacket",
+      "description": "Crystal-embellished show coat · Navy & Gold",
+      "price": "$485",
+      "badge": "New",
+      "image": ""
+    },
+    {
+      "name": "The Arabesque Shirt",
+      "description": "Hand-painted show shirt · White & Champagne",
+      "price": "$165",
+      "badge": "Fan Fav",
+      "image": ""
+    },
+    {
+      "name": "The Crown Collection",
+      "description": "Rhinestone headstall set · Black & Silver",
+      "price": "$220",
+      "badge": "",
+      "image": ""
+    }
+  ],
+  "shows": [
+    {
+      "month": "Jun",
+      "day": "20",
+      "title": "Utah Valley Arabian Value Show",
+      "location": "Utah Valley · All Disciplines · Arabian & Half-Arabian",
+      "tag": "Featured Show",
+      "featured": true
+    },
+    {
+      "month": "Jul",
+      "day": "12",
+      "title": "Region 7 Summer Spectacular",
+      "location": "Salt Lake Valley, UT · Arabian Performance & Halter",
+      "tag": "Attending",
+      "featured": false
+    },
+    {
+      "month": "Aug",
+      "day": "09",
+      "title": "Utah Arabian Horse Fall Classic",
+      "location": "Northern Utah · Open to All Arabian Breeds",
+      "tag": "Attending",
+      "featured": false
+    },
+    {
+      "month": "Oct",
+      "day": "TBD",
+      "title": "Region 7 Fall Championship",
+      "location": "Location TBD · Arabian & Half-Arabian · All Disciplines",
+      "tag": "Planned",
+      "featured": false
+    },
+    {
+      "month": "Feb",
+      "day": "27",
+      "title": "Scottsdale Arabian Horse Show",
+      "location": "Scottsdale, AZ · The World's Largest Arabian Show",
+      "tag": "Annual",
+      "featured": false
+    }
+  ]
+}
