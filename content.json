@@ -9,25 +9,25 @@
   },
   "products": [
     {
-      "name": "The Jewel Jacket",
-      "description": "Crystal-embellished show coat · Navy & Gold",
-      "price": "$485",
-      "badge": "New",
-      "image": ""
+      "name": "BooYah Dark Green Hunt Coat",
+      "description": "BooYah Dark Green Hunt Coat with Black Trim - Size 6",
+      "price": "$395",
+      "badge": "New - On Consignment",
+      "image": "/images/photoroom_20260331_202536-photoroom-photoroom.jpg"
     },
     {
-      "name": "The Arabesque Shirt",
-      "description": "Hand-painted show shirt · White & Champagne",
-      "price": "$165",
-      "badge": "Fan Fav",
-      "image": ""
+      "name": "Carl Meyers Navy Saddlesuit",
+      "description": "Carl Meyers Navy 3-PC Saddlesuit - Size 0/2",
+      "price": "$650",
+      "badge": "New - On Consignment",
+      "image": "/images/photoroom_20260408_232246.jpg"
     },
     {
-      "name": "The Crown Collection",
-      "description": "Rhinestone headstall set · Black & Silver",
-      "price": "$220",
-      "badge": "",
-      "image": ""
+      "name": "Navy and Silver Western Rail Jacket",
+      "description": "Navy and Silver Western Rail Jacket - Black Base. Show Clothes by Tracy brand. Size XS",
+      "price": "$295",
+      "badge": "New - On Consignment",
+      "image": "/images/photoroom_20260408_231300.jpg"
     }
   ],
   "shows": [
