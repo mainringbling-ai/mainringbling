@@ -8,3 +8,13 @@
   for = "/admin/*"
   [headers.values]
     X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/admin/config.yml"
+  [headers.values]
+    Content-Type = "text/yaml; charset=utf-8"
+
+[[headers]]
+  for = "/content.json"
+  [headers.values]
+    Content-Type = "application/json; charset=utf-8"
